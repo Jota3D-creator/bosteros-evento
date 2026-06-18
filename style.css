@@ -54,6 +54,20 @@ h2 {
   margin: 10px 0;
 }
 
+.home-bizum {
+  margin: 25px auto 0;
+  padding: 18px;
+  max-width: 460px;
+  background: rgba(255, 204, 0, 0.15);
+  border: 1px solid rgba(255, 204, 0, 0.6);
+  border-radius: 14px;
+  text-align: left;
+}
+
+.home-bizum p {
+  margin: 8px 0;
+}
+
 .buttons {
   margin-top: 28px;
 }
@@ -73,10 +87,6 @@ h2 {
 
 .button:hover {
   opacity: 0.9;
-}
-
-.button.secondary {
-  background: white;
 }
 
 .card {
@@ -129,5 +139,9 @@ h2 {
   .button {
     width: 100%;
     margin: 8px 0;
+  }
+
+  .home-bizum {
+    padding: 15px;
   }
 }
